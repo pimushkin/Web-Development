@@ -7,21 +7,22 @@
     <meta name="description"
         content="Hi, everybody. I'm Dmitry and I'm a software engineer. This is my portfolio page. If you want to learn more about me, go to the site.">
     <title>Pimushkin Dmitry - M33071</title>
-    <link rel="stylesheet" href="outlines.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body id="page-top">
-    <nav>
+    <nav class="navbar">
         <!-- контейнер -->
-        <div>
-            <a href="#page-top">
-                <img src="Vector.png">
-            </a>
+        <a class="logo" href="#page-top">
+            <img src="Vector.png">
+        </a>
+        <div class="nav_elements">
+            
             <!-- кнопка навигации для мобильного режима -->
-            <button></button>
-            <div>
+            <!-- <button></button> -->
+            <div class="nav_items">
                 <!-- создаём список... -->
-                <ul>
+                <ul class="ul_nav Maintxt">
                     <!-- неупорядоченный -->
                     <li role="presentation"><a href="#page-top">Home</a></li>
                     <li role="presentation"><a href="#about">About</a></li>
@@ -33,24 +34,24 @@
     </nav>
     <header>
         <!-- контейнер, который будет захватывать навигацию -->
-        <div>
+        <div class="intro">
             <!-- содержимое стартовой страницы -->
-            <div>
-                <div>
-                    <span>Hi, I’m Dmitry</span>
+            <div >
+                <div class="center Maintxt">
+                    <span style="font-size: 72pt">Hi, I’m Dmitry</span>
                 </div>
-                <div>
-                    <span>c# developer</span>
+                <div class="center Secondarytxt">
+                    <span style="font-size: 36pt">C# DEVELOPER</span>
                 </div>
-                <div>
-                    <span>ASP.NET, MS SQL</span>
+                <div class="center Secondarytxt" >
+                    <span style="font-size: 18pt">ASP.NET, MS SQL</span>
                 </div>
-                <a role="button" href="#about">Get Started</a>
+                <a  class="center Maintxt" style="font-size: 18pt" role="button" href="#about">Get Started</a>
             </div>
         </div>
     </header>
     <main>
-        <section id="about">
+        <section class="about" id="about">
             <!-- контейнер -->
             <div>
                 <!-- строка -->
@@ -58,13 +59,13 @@
                     <!-- колонна -->
                     <div>
                         <div>
-                            <h2>About me</h2>
+                            <h2 class="Maintxt">About me</h2>
                         </div>
                         <!-- фотография -->
                         <div>
-                            <img src="IMG_0950gfdg 1.png" />
+                            <img src="IMG_0950gfdg 1.png" /> 
                         </div>
-                        <div>
+                        <div class="aboutTxt Secondarytxt">
                             <p>Specialist in C# programming. 3rd year bachelor's degree student at ITMO University.</p>
                             <p>My main achievement is that I became a software engineer at First Line Software.</p>
                             <p>I have been programming for more than 4 years. I have experience in commercial
@@ -83,18 +84,18 @@
                     <!-- колонна -->
                     <div>
                         <div>
-                            <button type="button"></button>
-                            <button type="button"></button>
-                            <button type="button"></button>
-                            <button type="button"></button>
-                            <button type="button"></button>
+                            <button class="AboutBTN" type="button"></button>
+                            <button class="AboutBTN" type="button"></button>
+                            <button class="AboutBTN" type="button"></button>
+                            <button class="AboutBTN"  type="button"></button>
+                            <button class="AboutBTN" type="button"></button>
                         </div>
                     </div>
                     <!-- колонна -->
                     <div>
                         <div>
-                            <h3>C#</h3>
-                            <p>ASP.NET MVC & Core, .NET Core, Entity Framework Core, ASP.NET Core Web API, WPF, UWP,
+                            <h3 class="Maintxt">C#</h3>
+                            <p class="Secondarytxt">ASP.NET MVC & Core, .NET Core, Entity Framework Core, ASP.NET Core Web API, WPF, UWP,
                                 Windows Forms</p>
                             <!-- под прогресс бар -->
                             <div>
@@ -103,8 +104,8 @@
                             </div>
                         </div>
                         <div>
-                            <h3>SQL</h3>
-                            <p>MS SQL</p>
+                            <h3 class="Maintxt">SQL</h3>
+                            <p class="Maintxt">MS SQL</p>
                             <!-- под прогресс бар -->
                             <div>
                                 <div>
@@ -112,7 +113,7 @@
                             </div>
                         </div>
                         <div>
-                            <h3>Git</h3>
+                            <h3 class="Maintxt">Git</h3>
                             <!-- под прогресс бар -->
                             <div>
                                 <div>
@@ -120,7 +121,7 @@
                             </div>
                         </div>
                         <div>
-                            <h3>REST API</h3>
+                            <h3 class="Maintxt">REST API</h3>
                             <!-- под прогресс бар -->
                             <div>
                                 <div>
@@ -128,7 +129,7 @@
                             </div>
                         </div>
                         <div>
-                            <h3>Docker</h3>
+                            <h3 class="Maintxt">Docker</h3>
                             <!-- под прогресс бар -->
                             <div>
                                 <div>
@@ -136,7 +137,7 @@
                             </div>
                         </div>
                         <div>
-                            <h3>HTML & CSS</h3>
+                            <h3 class="Maintxt">HTML & CSS</h3>
                             <!-- под прогресс бар -->
                             <div>
                                 <div>
@@ -144,7 +145,7 @@
                             </div>
                         </div>
                         <div>
-                            <h3>Linux</h3>
+                            <h3 class="Maintxt">Linux</h3>
                             <!-- под прогресс бар -->
                             <div>
                                 <div>
@@ -152,7 +153,7 @@
                             </div>
                         </div>
                         <div>
-                            <h3>C/C++</h3>
+                            <h3 class="Maintxt">C/C++</h3>
                             <!-- под прогресс бар -->
                             <div>
                                 <div>
@@ -163,57 +164,58 @@
                 </div>
             </div>
         </section>
-        <section id="portfolio">
+        <section class="portfolio" id="portfolio">
             <!-- контейнер -->
             <div>
                 <!-- строка -->
                 <div>
                     <!-- колонна по центру -->
                     <div>
-                        <h2>Portfolio</h2>
+                        <h2 class="Maintxt center">Portfolio</h2>
                     </div>
                 </div>
                 <!-- строка -->
-                <div>
+                <div class="PortfolioBlocks">
                     <!-- колонна -->
                     <div>
                         <img class="img-fluid" src="portfolio/Rectangle 24.png" />
                         <div>
-                            <h4>Vigenere Messenger</h4>
-                        </div>
+                            <h4 class="Maintxt">Vigenere Messenger</h4>
+                        </div class="Secondarytxt">
                         <a role="button" href="#portfolioModal1">View More</a>
                     </div>
                     <!-- колонна -->
                     <div>
                         <img class="img-fluid" src="portfolio/Rectangle 26.png" />
                         <div>
-                            <h4>FSTEC Parser</h4>
-                        </div>
+                            <h4 class="Maintxt">FSTEC Parser</h4>
+                        </div class="Secondarytxt">
                         <a role="button" href="#portfolioModal2">View More</a>
                     </div>
                     <!-- колонна -->
-                    <div>
+                    <div class="Secondarytxt">
                         <img class="img-fluid" src="portfolio/Rectangle 25.png" />
                         <div>
-                            <h4>FLS Family</h4>
-                        </div>
+                            <h4 class="Maintxt">FLS Family</h4>
+                        </div class="Secondarytxt">
                         <a role="button" href="#portfolioModal3">View More</a>
                     </div>
                     <!-- колонна -->
-                    <div>
-                        <a role="button" href="https://github.com/pimushkin">View Full Portfolio</a>
-                    </div>
+                    
+                </div>
+                <div class="Maintxt">
+                    <a role="button" href="https://github.com/pimushkin">View Full Portfolio</a>
                 </div>
             </div>
         </section>
-        <section id="contact">
+        <section class="contact" id="contact">
             <!-- контейнер -->
             <div>
                 <!-- строка -->
                 <div>
                     <!-- колонна по центру -->
                     <div>
-                        <h2>Contact</h2>
+                        <h2 class="Maintxt center">Contact</h2>
                     </div>
                 </div>
                 <!-- строка -->
@@ -222,7 +224,7 @@
                         <!-- строка -->
                         <div>
                             <!-- колонна -->
-                            <div>
+                            <div class="Maintxt">
                                 <div><input type="text" id="name"
                                         placeholder="Name" required /><small
                                         ></small></div>
