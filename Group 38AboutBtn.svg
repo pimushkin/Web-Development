@@ -1,0 +1,23 @@
+<svg width="88" height="91" viewBox="0 0 88 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d)">
+<rect x="4" width="80" height="80" rx="16" fill="url(#paint0_linear)"/>
+</g>
+<path d="M39.957 41.3477H48.043V44.043H39.957V41.3477Z" fill="white"/>
+<path d="M58.3192 44.043H50.7383V45.3906C50.7383 46.1354 50.1353 46.7383 49.3906 46.7383H38.6094C37.8647 46.7383 37.2617 46.1354 37.2617 45.3906V44.043H29.6808C27.9383 44.043 26.3973 42.9322 25.8456 41.2792L21 26.74V56.1719C21 58.4011 22.8137 60.2149 25.043 60.2149H62.957C65.1863 60.2149 67 58.4011 67 56.1719V26.741L62.1541 41.2792C61.6027 42.9322 60.0617 44.043 58.3192 44.043Z" fill="white"/>
+<path d="M49.3906 19.7852H38.6094C36.3801 19.7852 34.5664 21.5989 34.5664 23.8281V25.1758H23.3188L28.4016 40.4264C28.5858 40.9778 29.1003 41.3477 29.6808 41.3477H37.2617V40C37.2617 39.2553 37.8647 38.6523 38.6094 38.6523H49.3906C50.1354 38.6523 50.7383 39.2553 50.7383 40V41.3477H58.3192C58.8997 41.3477 59.4142 40.9778 59.5984 40.4264L64.6816 25.1758H53.4336V23.8281C53.4336 21.5989 51.6199 19.7852 49.3906 19.7852ZM37.2617 25.1758V23.8281C37.2617 23.0845 37.8657 22.4805 38.6094 22.4805H49.3906C50.1343 22.4805 50.7383 23.0845 50.7383 23.8281V25.1758H37.2617Z" fill="white"/>
+<defs>
+<filter id="filter0_d" x="0" y="0" width="88" height="91" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="7"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear" x1="44" y1="-4.41852e-06" x2="44" y2="80" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E249FA"/>
+<stop offset="1" stop-color="#6A8BFF"/>
+</linearGradient>
+</defs>
+</svg>

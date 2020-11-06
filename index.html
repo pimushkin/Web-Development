@@ -11,7 +11,7 @@
 </head>
 
 <body id="page-top">
-    <nav class="navbar">
+    <nav class="navbar" >
         <!-- контейнер -->
         <a class="logo" href="#page-top">
             <img src="Vector.png">
@@ -22,7 +22,7 @@
             <!-- <button></button> -->
             <div class="nav_items">
                 <!-- создаём список... -->
-                <ul class="ul_nav Maintxt">
+                <ul class="ul_nav Maintxt" style="font-size: 24px; font-weight: 550; letter-spacing:1px;">
                     <!-- неупорядоченный -->
                     <dt role="presentation"><a href="#page-top">Home</a></dt>
                     <dt role="presentation"><a href="#about">About</a></dt>
@@ -46,24 +46,29 @@
                 <div class="center Secondarytxt" >
                     <span style="font-size: 18pt">ASP.NET, MS SQL</span>
                 </div>
-                <a  class="center Maintxt " style="font-size: 18pt" role="button" href="#about">Get Started</a>
+                <div class="ButtonIntro" >
+                    <a  class=" Maintxt center " style="font-size: 18pt"  role="button" href="#about">Get Started</a>
+                    </div>
             </div>
         </div>
+        
     </header>
     <main>
         <section class="about center" id="about">
             <!-- контейнер -->
             <div>
                 <!-- строка -->
-                <div>
+                <div class="AboutHead">
                     <!-- колонна -->
-                    <div>
+                     <div>
+                        <img src="MyPhoto.png" style="margin-right:2.5rem; height: 95%; "> 
+                        </div>
+                    <div class="TxtGroup">
+                        
+                        <!-- фотография -->
+                       
                         <div>
                             <h2 class="Maintxt">About me</h2>
-                        </div>
-                        <!-- фотография -->
-                        <div>
-                            <img src="IMG_0950gfdg 1.png" /> 
                         </div>
                         <div class="aboutTxt Secondarytxt">
                             <p>Specialist in C# programming. 3rd year bachelor's degree student at ITMO University.</p>
@@ -84,19 +89,25 @@
                     <!-- колонна -->
                     <div>
                         <div>
-                            <button class="AboutBTN" type="button"></button>
-                            <button class="AboutBTN" type="button"></button>
-                            <button class="AboutBTN" type="button"></button>
-                            <button class="AboutBTN"  type="button"></button>
-                            <button class="AboutBTN" type="button"></button>
+                            <button class="AboutBTN" type="button"><img src="Group 37AboutBtn.svg"></button>
+                            <button class="AboutBTN" type="button"><img src="Group 38AboutBtn.svg"></button>
+                            <button class="AboutBTN" type="button"><img src="Group 39AboutBtn.svg"></button>
+                            <button class="AboutBTN"  type="button"><img src="Group 40AboutBtn.svg"></button>
+                            <button class="AboutBTN" type="button"><img src="Group 41AboutBtn.svg"></button>
                         </div>
                     </div>
                     <!-- колонна -->
-                    <div>
-                        <div>
-                            <h3 class="Maintxt">C#</h3>
-                            <p class="Secondarytxt">ASP.NET MVC & Core, .NET Core, Entity Framework Core, ASP.NET Core Web API, WPF, UWP,
+                    <div style="color:#171717;" >
+                        <div class="AboutClowd">
+                       <img src="clowdAboutClowd.svg">
+                    </div>
+                       <div class="SkillsTxt">
+                           <div class="AboutColumn1">
+                        <div >
+                            <h3 class="Maintxt" style="margin-top:10px; margin-bottom:0;">C#</h3>
+                            <p class="Secondarytxt" style="font-size: 14px;margin-top:5px; margin-bottom:5px; ">ASP.NET MVC & Core, .NET Core, Entity Framework Core, ASP.NET Core Web API, WPF, UWP,
                                 Windows Forms</p>
+                                <img src="c_sharp.svg">
                             <!-- под прогресс бар -->
                             <div>
                                 <div>
@@ -104,8 +115,9 @@
                             </div>
                         </div>
                         <div>
-                            <h3 class="Maintxt">SQL</h3>
-                            <p class="Maintxt">MS SQL</p>
+                            <h3 class="Maintxt" style="margin-top:10px; margin-bottom:0;">SQL</h3>
+                            <p class="Secondarytxt" style="font-size: 14px;margin-top:5px; margin-bottom:5px;">MS SQL</p>
+                            <img src="SQL.svg">
                             <!-- под прогресс бар -->
                             <div>
                                 <div>
@@ -113,7 +125,8 @@
                             </div>
                         </div>
                         <div>
-                            <h3 class="Maintxt">Git</h3>
+                            <h3 class="Maintxt" style="margin-top:10px; margin-bottom:5px;">Git</h3>
+                            <img src="Git.svg">
                             <!-- под прогресс бар -->
                             <div>
                                 <div>
@@ -121,39 +134,8 @@
                             </div>
                         </div>
                         <div>
-                            <h3 class="Maintxt">REST API</h3>
-                            <!-- под прогресс бар -->
-                            <div>
-                                <div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <h3 class="Maintxt">Docker</h3>
-                            <!-- под прогресс бар -->
-                            <div>
-                                <div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <h3 class="Maintxt">HTML & CSS</h3>
-                            <!-- под прогресс бар -->
-                            <div>
-                                <div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <h3 class="Maintxt">Linux</h3>
-                            <!-- под прогресс бар -->
-                            <div>
-                                <div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <h3 class="Maintxt">C/C++</h3>
+                            <h3 class="Maintxt"style="margin-top:10px; margin-bottom:5px;">REST API</h3>
+                            <img src="Rest.svg">
                             <!-- под прогресс бар -->
                             <div>
                                 <div>
@@ -161,6 +143,46 @@
                             </div>
                         </div>
                     </div>
+                    <div class="AboutColumn2"style="position: relative;top:17.5%;" >
+                        <div >
+                            <h3 class="Maintxt"style="margin-top:10px; margin-left:0; margin-bottom:5px;">Docker</h3>
+                            <img src="Docker.svg">
+                            <!-- под прогресс бар -->
+                            <div>
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="position: relative;top:7%;">
+                            <h3 class="Maintxt"style="margin-top:10px; margin-bottom:5px;">HTML & CSS</h3>
+                            <img src="Html.svg">
+                            <!-- под прогресс бар -->
+                            <div>
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="position: relative;top:7%;">
+                            <h3 class="Maintxt"style="margin-top:10px; margin-bottom:5px;">Linux</h3>
+                            <img src="Linux.svg">
+                            <!-- под прогресс бар -->
+                            <div>
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="position: relative;top:7%;">
+                            <h3 class="Maintxt"style="margin-top:10px; margin-bottom:5px;">C/C++</h3>
+                            <img src="C++.svg">
+                            <!-- под прогресс бар -->
+                            <div>
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </section>
@@ -171,39 +193,39 @@
                 <div>
                     <!-- колонна по центру -->
                     <div>
-                        <h2 class="Maintxt center">Portfolio</h2>
+                        <h2 class="Maintxt center" style="margin-bottom:6%; font-size:64px">Portfolio</h2>
                     </div>
                 </div>
                 <!-- строка -->
                 <div class="PortfolioBlocks">
                     <!-- колонна -->
-                    <div>
+                    <div class="PortfolioBlock">
                         <img class="img-fluid" src="portfolio/Rectangle 24.png" />
-                        <div>
-                            <h4 class="Maintxt">Vigenere Messenger</h4>
-                        </div class="Secondarytxt">
-                        <a role="button" href="#portfolioModal1">View More</a>
+                        <div >
+                            <h4 class="Maintxt" style="font-size: 24px; text-align:center;margin-top:10px;">Vigenere Messenger</h4>
+                        </div>
+                        <a role="button" class="Secondarytxt ViewBtn" href="#portfolioModal1">View More</a>
                     </div>
                     <!-- колонна -->
-                    <div>
+                    <div  class="PortfolioBlock">
                         <img class="img-fluid" src="portfolio/Rectangle 26.png" />
                         <div>
-                            <h4 class="Maintxt">FSTEC Parser</h4>
-                        </div class="Secondarytxt">
-                        <a role="button" href="#portfolioModal2">View More</a>
+                            <h4 class="Maintxt"style="font-size: 24px; text-align:center;margin-top:10px;">FSTEC Parser</h4>
+                        </div>
+                        <a role="button" class="ViewBtn Secondarytxt" href="#portfolioModal2">View More</a>
                     </div>
                     <!-- колонна -->
-                    <div class="Secondarytxt">
+                    <div  class="PortfolioBlock">
                         <img class="img-fluid" src="portfolio/Rectangle 25.png" />
                         <div>
-                            <h4 class="Maintxt">FLS Family</h4>
-                        </div class="Secondarytxt">
-                        <a role="button" href="#portfolioModal3">View More</a>
+                            <h4 class="Maintxt"style="font-size: 24px; text-align:center;margin-top:10px;" >FLS Family</h4>
+                        </div >
+                        <a role="button" class="Secondarytxt ViewBtn" href="#portfolioModal3">View More</a>
                     </div>
                     <!-- колонна -->
                     
                 </div>
-                <div class="Maintxt">
+                <div class="Maintxt PortfolioBtn" style="font-size: 18px;">
                     <a role="button" href="https://github.com/pimushkin">View Full Portfolio</a>
                 </div>
             </div>
@@ -215,33 +237,33 @@
                 <div>
                     <!-- колонна по центру -->
                     <div>
-                        <h2 class="Maintxt ">Contact</h2>
+                        <h2 class="Maintxt" style="margin-bottom:10%; font-size:64px">Get In Touch</h2>
                     </div>
                 </div>
                 <!-- строка -->
-                <div>
-                    <form id="contactForm" name="contactForm">
+                <div class="contactForm">
+                    <form  id="contactForm" name="contactForm">
                         <!-- строка -->
-                        <div>
+                        <div class="FormInputs">
                             <!-- колонна -->
                             <div class="Maintxt">
-                                <div><input type="text" id="name"
+                                <div style="margin: 42px;"><input type="text" id="name"
                                         placeholder="Name" required /><small
                                         ></small></div>
-                                <div><input type="email" id="email"
+                                <div style="margin: 42px;"><input type="email" id="email"
                                         placeholder="Email" required /><small
                                         ></small></div>
                             </div>
                             <!-- колонна -->
                             <div>
-                                <div><textarea class="form-control" id="subject"
-                                        placeholder="Subject" required></textarea><small
+                                <div style="margin: 42px;"><input class="form-control" id="subject"
+                                        placeholder="Subject" required></input><small
                                         ></small></div>
                             </div>
                             <!-- колонна -->
-                            <div>
-                                <div><textarea class="form-control" id="message"
-                                        placeholder="Message" required></textarea><small
+                            <div style="margin: 42px;">
+                                <div><input class="form-control" id="message"
+                                        placeholder="Message" required></input><small
                                         ></small></div>
                             </div>
                             <!-- колонна -->

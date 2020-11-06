@@ -13,15 +13,52 @@ element{
   border-radius: 10px;
 }
  */
- a:link {
+
+a:link {
   color:white;
   text-decoration: none;
 }
 a:visited {
   color: white;
 }
-a:hover {
+dt:hover {
   border-bottom: 3px solid #E249FA;
+}
+h2{
+margin-top: 0;
+font-size: 36px;
+margin-bottom: 0%;
+}
+button:focus{
+  outline:none;
+}
+h3{
+  font-size: 18px;
+  margin-top: 5;
+  
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+font-size: 24px;
+font-weight: bold;
+color:white;
+text-align: left;
+}
+input{
+background:none;
+border-bottom: 2px solid #E249FA;
+border-top: none;
+border-left: none;
+border-right: none;
+height: 43px;
+width: 1036px;
+outline: none;  
+color:white;
+font-size: 24px;
+}
+
+footer{
+position: relative;
+top: -15%;
 }
 
 
@@ -33,7 +70,9 @@ a:hover {
 .Secondarytxt{
   font-family:Arial, Helvetica, sans-serif, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 100;
+  font-size: 18px;
+
 }
 .center{
   display: flex;
@@ -111,29 +150,78 @@ justify-content: center;
 align-items: center;
 
 }
+.ButtonIntro{
+  position: relative;
+  left: 31%;
+  border: 3px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+  border-radius: 1rem;
+  padding: 2% 3%;
+  margin: 3%;
+  width: 155px;
+  }
+
 .about{
 position: relative;
 height:942px ;
 }
 .aboutTxt{
   width: 771px;
-
-
+}
+.AboutHead{
+display: flex;
+margin-bottom: 1.8rem;
+}
+.TxtGroup{
+display: flex;
+justify-content: space-between;
+align-items:stretch;
+flex-direction: column;
 }
 .AboutBTNdiv{
   width: 460px;
   display: flex;
   justify-content: space-between;
+
 }
 .AboutBTN{
-height: 80px;
-width: 80px;
-background: linear-gradient(#E249FA, #6A8BFF);
+padding: 0;
+border: none;
+background: none;
+}
+.AboutClowd{
+  position: relative;
+  display: flex;
+}
+.SkillsTxt{
+width: 732px;
+height: 299px;
+position: absolute;
+top:55%;
+left: 24.8%;
+display: flex;
+align-items:space-between;
+
+}
+.AboutColumn1{
+  position: relative;
+
+  width: 370px;
+  margin-right:4rem;
+  height: 299px;
+}
+.AboutColumn2{
+  position: absolute;
+  width: 302px;
+  height: 299px;
+
+
 }
 
 .portfolio{
 position: relative;
-height:942px ;
+height:900px ;
 width: 100%;
 display: flex;
 justify-content: center;
@@ -147,13 +235,78 @@ align-items: center;
 flex-direction: row;
 
 }
+.PortfolioBlock{
+background-color: black;
+height: 423px;
+border-radius:15px;
+
+}
+.PortfolioBtn{
+position: relative;
+left: 40%;
+height: 53px;
+width: 222px;
+background: linear-gradient(90deg, rgba(226,73,250,1), rgba(106,139,255,1));
+border-radius:15px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top:90px ;
+box-shadow: 0px 7px 7px rgba(0, 0, 0, 1);
+}
+.ViewBtn{
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+  border-radius: 1rem;
+  padding: 3% 7%;
+  margin-top: 4%;
+  font-size: 14px;
+  position: relative;
+  left: 33%;
+}
 
 .contact{
 position: relative;
-height:942px ;
+height:942px;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.contactForm{
+height: 598px;
+width: 1130px;
+background-color:#323232;
+border-radius:15px;
+
+}
+.FormInputs{
+position: relative;
+top: 5rem;
+height:468px;
+
+ 
 }
 footer{
 position: relative;
 display: flex;
 justify-content: center;
 }
+#submitButton{
+position: relative;
+left: 40%;
+height: 53px;
+width: 222px;
+background: linear-gradient(90deg, rgba(226,73,250,1), rgba(106,139,255,1));
+border-radius:15px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top:90px ;
+color:white;
+font-size: 18px;
+font-weight: bold;
+border:none;
+box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4);
+}
+
