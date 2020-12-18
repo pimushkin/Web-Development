@@ -277,6 +277,26 @@
         </section>
     </main>
     <footer>© 2020 Dmitry Pimushkin</footer>
+    <script>
+        function sortByCount(arr) {
+            arr.sort((a, b) => a.count > b.count ? 1 : -1);
+        }
+    
+        function countTag() {
+            let tags = []
+            for (tag of document.getElementsByTagName("*")) {
+                const found = tags.find(item => item.tag === tag.tagName)
+                if(found)
+                    found.count++
+                else
+                    tags.push({tag:tag.tagName, count: 1})
+            }
+            sortByCount(tags)
+            return tags
+        }
+    
+        console.log("Tags: ", countTag())
+    </script>
 </body>
 
 </html>
